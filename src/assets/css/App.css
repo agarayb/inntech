@@ -1,0 +1,64 @@
+.App-header {
+  background: url(../img/fondo.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;    
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-brand span{
+    color: cadetblue;
+}
+
+.App-header h1{
+  color: cadetblue;
+  font-family: cursive;
+}
+
+.App-header h1:hover{
+  color: aqua;
+}
+
+.App-header h1 span{
+  color: white;
+  font-family: fantasy;
+}
+
+.card img{
+    height: 15rem
+}
+
+.card img:hover{
+    transform:scale(1.1);
+}
+
+.imgxq{
+      box-shadow: 0px 15px 15px 0px #999;
+}
+
+
+.imgts{
+    width: 150px;
+    height: 150px;
+}
+
+.App-footer {
+  background: #292929;
+  padding: 100px;
+}
+
+.pp{
+    color: #6B7118;
+}
+
+.pb{
+    color: #1F3A7C;
+}
+
+.pbs{
+    color: #8B1F14;
+}
